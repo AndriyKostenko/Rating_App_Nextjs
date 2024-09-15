@@ -1,7 +1,9 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-export default function Home() {
+export default function Home(): JSX.Element {
+
+
   return (
     <div className={styles.page}>
       <main className={styles.main}>
@@ -87,7 +89,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Go to nextjs.org →
+          Go to nextjs.org → 
         </a>
       </footer>
     </div>
