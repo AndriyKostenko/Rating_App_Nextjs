@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 
-// added functionality to load svg files as components
+
+// In order to extend our usage of webpack in Next.js 
+// and start supporting  svg files as components, 
+// we can extend the webpack configuration in the next.config.mjs file.
 export default {
 	webpack: (config) => {
 		config.module.rules.push({
