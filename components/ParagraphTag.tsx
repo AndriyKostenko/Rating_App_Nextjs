@@ -1,6 +1,6 @@
-import { ParagraphTagProps } from "./ParagraphTag.props";
+import { ParagraphTagProps } from "../interfaces/ParagraphTag.props";
 import cn from "classnames";
-import styles from "./ParagraphTag.module.css"
+import styles from "../styles/ParagraphTag.module.css"
 
 export const ParagraphTag = ({ size, children, className, ...props }: ParagraphTagProps): JSX.Element => {
   return (

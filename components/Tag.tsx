@@ -1,6 +1,6 @@
-import { TagProps } from "./Tag.props";
+import { TagProps } from "../interfaces/Tag.props";
 import cn from "classnames";
-import styles from "./Tag.module.css";
+import styles from "../styles/Tag.module.css";
 
 export const Tag = ({ size, children, color, className, href, ...props }: TagProps): JSX.Element => {
   return (

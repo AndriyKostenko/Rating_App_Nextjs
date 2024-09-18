@@ -1,10 +1,10 @@
 "use client";
 
-import { RatingProps } from "./Rating.props";
+import { RatingProps } from "../interfaces/Rating.props";
 import cn from "classnames";
-import styles from "./Rating.module.css";
-import { Key, useEffect, useState, KeyboardEvent } from "react";
-import StarIcon from "../../public/star.svg"
+import styles from "../styles/Rating.module.css";
+import { useEffect, useState, KeyboardEvent } from "react";
+import StarIcon from "../public/star.svg";
 
 
 export const Rating = ({isEditable = false, rating, setRating, ...props}: RatingProps): JSX.Element => {

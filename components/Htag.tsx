@@ -1,5 +1,5 @@
-import { HtagProps } from "./Htag.props"
-import styles from './Htag.module.css';
+import { HtagProps } from "../interfaces/Htag.props";
+import styles from '../styles/Htag.module.css';
 import cn from "classnames";
 
 

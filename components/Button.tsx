@@ -1,7 +1,7 @@
-import styles from './Button.module.css';
-import { ButtonProps } from "./Button.props";
+import styles from '../styles/Button.module.css';
+import { ButtonProps } from "../interfaces/Button.props";
 import cn from "classnames";
-import ButtonArrow from '../../public/arrow_button.svg';
+import ButtonArrow from '../public/arrow_button.svg';
 
 
 export const Button = ({appearance, children, arrow = 'none', className, ...props} : ButtonProps): JSX.Element => {
